@@ -1,0 +1,69 @@
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-blacklike{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+.invert{
+    filter: invert();
+}
+
+.border-r{
+    border-radius: 8px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+.spotifysongs{
+    padding: 10px;
+}
+
+/* For webkit browsers like Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+    width: 12px;  /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* Dark thumb color */
+    border-radius: 10px; /* Rounded corners */
+    border: 3px solid #222; /* Border around the thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222; /* Dark background for the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* For Firefox */
+scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+scrollbar-thumb {
+    background-color: #444;
+    border-radius: 10px;
+}
+
+scrollbar-track {
+    background-color: #222;
+}
